@@ -1,0 +1,14 @@
+{
+  "documents": [
+    {
+      "language": "en",
+      "id": "1",
+      "text": "I 'm sick"
+    },
+    {
+      "language": "en",
+      "id": "2",
+      "text": "life is not good"
+    }
+  ]
+}
