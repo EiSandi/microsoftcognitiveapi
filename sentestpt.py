@@ -15,7 +15,7 @@ account_key = '0d8961f6987148b383030aab16180a95'
 headers = {'Content-Type':'application/json', 'Ocp-Apim-Subscription-Key':account_key}
             
 # input_texts = '{"documents":[{"id":"1","text":"hello world"},{"id":"2","text":"hello foo world"},{"id":"three","text":"hello my world"},]}'
-file_path = '/home/eisandy/sentest/input.json'
+file_path = '/home/eisandy/testapi/input.json'
 f = open(file_path, 'r')
 input_texts = f.read()
 
