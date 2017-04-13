@@ -54,6 +54,16 @@ for sentiment_analysis in obj['documents']:
     sentimentResult=('Sentiment ' + str(sentiment_analysis['id']) + ' score: ' + str(sentiment_analysis['score']))
     print sentimentResult
 
+html='''
+<html>
+    <head></head>
+    <body>
+        <label>Key: {0} </label>
+        <br>            
+    </body>
+</html>
+'''.format(result3)
+
 # {"documents":[{"keyPhrases":[""],"id":"1"},{"keyPhrases":["life"],"id":"2"}],"errors":[]}
 # Key phrases 1: 
 # Key phrases 2: life
